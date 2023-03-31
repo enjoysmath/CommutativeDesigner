@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>803</width>
+    <height>490</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QGridLayout" name="gridLayout_2">
+    <property name="leftMargin">
+     <number>0</number>
+    </property>
+    <property name="topMargin">
+     <number>0</number>
+    </property>
+    <property name="rightMargin">
+     <number>0</number>
+    </property>
+    <property name="bottomMargin">
+     <number>0</number>
+    </property>
+    <item row="0" column="0">
+     <widget class="QTabWidget" name="centralTabs">
+      <widget class="QWidget" name="tab">
+       <attribute name="title">
+        <string>Tab 1</string>
+       </attribute>
+      </widget>
+      <widget class="QWidget" name="tab_2">
+       <attribute name="title">
+        <string>Tab 2</string>
+       </attribute>
+      </widget>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>803</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuDiagram">
+    <property name="title">
+     <string>&amp;Diagram</string>
+    </property>
+    <addaction name="actionNewDiagram"/>
+   </widget>
+   <widget class="QMenu" name="menuRule">
+    <property name="title">
+     <string>&amp;Rule</string>
+    </property>
+    <addaction name="actionNewRule"/>
+   </widget>
+   <addaction name="menuDiagram"/>
+   <addaction name="menuRule"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="actionNewDiagram">
+   <property name="text">
+    <string>&amp;New</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+N</string>
+   </property>
+  </action>
+  <action name="actionNewRule">
+   <property name="text">
+    <string>&amp;New</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

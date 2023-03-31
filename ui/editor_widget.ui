@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>602</width>
+    <height>228</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <property name="leftMargin">
+    <number>0</number>
+   </property>
+   <property name="topMargin">
+    <number>0</number>
+   </property>
+   <property name="rightMargin">
+    <number>0</number>
+   </property>
+   <property name="bottomMargin">
+    <number>0</number>
+   </property>
+   <property name="spacing">
+    <number>0</number>
+   </property>
+   <item row="4" column="3">
+    <widget class="QToolButton" name="toolButton_4">
+     <property name="text">
+      <string>🡻</string>
+     </property>
+    </widget>
+   </item>
+   <item row="4" column="5">
+    <widget class="QToolButton" name="toolButton_7">
+     <property name="text">
+      <string>🡾</string>
+     </property>
+    </widget>
+   </item>
+   <item row="1" column="2" rowspan="3" colspan="3">
+    <widget class="QWebEngineView" name="webEngineView">
+     <property name="url">
+      <url>
+       <string>about:blank</string>
+      </url>
+     </property>
+    </widget>
+   </item>
+   <item row="2" column="0">
+    <widget class="QToolButton" name="toolButton">
+     <property name="text">
+      <string>🡸</string>
+     </property>
+    </widget>
+   </item>
+   <item row="4" column="0">
+    <widget class="QToolButton" name="toolButton_8">
+     <property name="text">
+      <string>🡿</string>
+     </property>
+    </widget>
+   </item>
+   <item row="0" column="3">
+    <widget class="QToolButton" name="toolButton_3">
+     <property name="text">
+      <string>🡹</string>
+     </property>
+    </widget>
+   </item>
+   <item row="0" column="0">
+    <widget class="QToolButton" name="toolButton_5">
+     <property name="text">
+      <string>🡼</string>
+     </property>
+    </widget>
+   </item>
+   <item row="0" column="5">
+    <widget class="QToolButton" name="toolButton_6">
+     <property name="text">
+      <string>🡽</string>
+     </property>
+    </widget>
+   </item>
+   <item row="2" column="5">
+    <widget class="QToolButton" name="toolButton_2">
+     <property name="text">
+      <string>🡺</string>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>QWebEngineView</class>
+   <extends>QWidget</extends>
+   <header location="global">QtWebEngineWidgets/QWebEngineView</header>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>
